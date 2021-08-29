@@ -25,7 +25,7 @@ function App() {
       </div>
 
       <Container>
-        <Row>
+        <Row className="all-features">
           <Col>
             <h2> Transform your brand </h2>
             <p>
@@ -35,10 +35,10 @@ function App() {
             </p>
             <a href="#">Learn more</a>
           </Col>
-          <Col>2 of 2</Col>
+          <Col style={{backgroundImage:'url(/images/desktop/image-transform.jpg)'}} className="feature"></Col>
         </Row>
-        <Row>
-          <Col>1 of 2</Col>
+        <Row className="all-features">
+          <Col style={{backgroundImage:'url(/images/desktop/image-stand-out.jpg)'}} className="feature"></Col>
           <Col>
             <h2>Stand out to the right audience</h2>
             <p>
@@ -49,8 +49,8 @@ function App() {
             <a href="#">Learn more</a>
           </Col>
         </Row>
-        <Row>
-          <Col>
+        <Row className="all-features">
+          <Col style={{backgroundImage:'url(/images/desktop/image-graphic-design.jpg)'}} className="feature">
             <h3>Graphic design</h3>
             <p>
               Great design makes you memorable. We deliver artwork that
@@ -58,7 +58,7 @@ function App() {
               attention.
             </p>
           </Col>
-          <Col>
+          <Col style={{backgroundImage:'url(/images/desktop/image-photography.jpg)'}} className="feature">
             <h3>Photography</h3>
             <p>
               Increase your credibility by getting the most stunning,

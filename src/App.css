@@ -10,9 +10,22 @@
   color: white;
 }
 
+.row{
+  background: pink;
+  height:570px;
+}
+
+.feature{
+  background-size: cover;
+  background-position: center;
+}
+
+
 .testimonials{
   height:100vh;
 }
+
+
 
 img{
   width: 25vw;
