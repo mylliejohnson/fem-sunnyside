@@ -1,3 +1,30 @@
 .App {
   text-align: center;
+  margin: auto;
+ 
+}
+
+.landing{
+  height: 100vh;
+  background-size: cover;
+  color: white;
+}
+
+.testimonials{
+  height:100vh;
+}
+
+img{
+  width: 25vw;
+}
+
+.gallery{
+  padding: 0;
+  margin-left:0 !important;
+  margin-right:0 !important;
+  width:100vw !important;
+}
+
+.footer{
+  height:100vh;
 }

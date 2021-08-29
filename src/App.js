@@ -5,8 +5,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App container-fluid">
-      <div className="landing">
+    <div className="App">
+      <div className="landing" style={{backgroundImage:'url(/images/desktop/image-header.jpg)'}}>
         <Navbar>
           <Container>
             <h1>sunnyside</h1>
@@ -68,11 +68,11 @@ function App() {
         </Row>
       </Container>
 
-      <Container>
+      <Container className="testimonials">
         <h4>CLIENT TESTIMONIALS</h4>
         <Row>
           <Col>
-            <img></img>
+            <div></div>
             <p>
               We put our trust in Sunnyside and they delivered, making sure our
               needs were met and deadlines were always hit.
@@ -81,7 +81,7 @@ function App() {
             <span>Marketing Director</span>
           </Col>
           <Col>
-            <img></img>
+            <div></div>
             <p>
               Sunnyside’s enthusiasm coupled with their keen interest in our
               brand’s success made it a satisfying and enjoyable experience.
@@ -90,7 +90,7 @@ function App() {
             <span> Chief Operating Officer</span>
           </Col>
           <Col>
-            <img></img>
+            <div></div>
             <p>
               Incredible end result! Our sales increased over 400% when we
               worked with Sunnyside. Highly recommended!
@@ -101,24 +101,24 @@ function App() {
         </Row>
       </Container>
 
-      <Container>
-        <Row>
-          <Col>Image 1</Col>
-          <Col>Image 2</Col>
-          <Col>Image 3</Col>
-          <Col>Image 4</Col>
-        </Row>
-      </Container>
+<div className="footer">
+      <div className='gallery'> 
+            <img src="/images/desktop/image-gallery-milkbottles.jpg" />
+            <img src="/images/desktop/image-gallery-orange.jpg" />
+            <img src="/images/desktop/image-gallery-cone.jpg" />
+            <img src="/images/desktop/image-gallery-sugarcubes.jpg" />
+      </div>
 
-      <Container>
+      <footer>
         <h1>sunnyside</h1>
         <ul>
           <li>About</li>
           <li>Services</li>
           <li>Projects</li>
         </ul>
-      </Container>
+      </footer>
     </div>
+  </div>
   );
 }
 
