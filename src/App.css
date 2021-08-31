@@ -1,7 +1,7 @@
 .App {
   text-align: center;
   margin: auto;
- 
+  background: #3DBFFF;
 }
 
 .landing{
@@ -11,7 +11,7 @@
 }
 
 .row{
-  background: pink;
+  background: white;
   height:570px;
 }
 
@@ -23,6 +23,8 @@
 
 .testimonials{
   height:100vh;
+  background: white !important;
+  width: 100vw !important;
 }
 
 
@@ -40,4 +42,13 @@ img{
 
 .footer{
   height:100vh;
+  background: #8BD4C3;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }

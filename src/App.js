@@ -68,7 +68,7 @@ function App() {
         </Row>
       </Container>
 
-      <Container className="testimonials">
+      <div className="testimonials">
         <h4>CLIENT TESTIMONIALS</h4>
         <Row>
           <Col>
@@ -99,7 +99,7 @@ function App() {
             <span> Business Owner</span>
           </Col>
         </Row>
-      </Container>
+      </div>
 
 <div className="footer">
       <div className='gallery'> 
