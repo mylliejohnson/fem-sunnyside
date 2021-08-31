@@ -3,6 +3,21 @@ import { Button, Navbar, Nav, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 
+/*
+to-do list:
+  add arrow on landing
+  padding on landing nav
+  nav links white
+  position text on features
+  color text on features
+  style learn more link
+  style client testimonials
+  position footer
+  color footer text
+*/
+
+
+
 function App() {
   return (
     <div className="App">
@@ -20,7 +35,11 @@ function App() {
         </Navbar>
 
         <div>
-          <h2>WE ARE CREATIVES</h2>
+          <h2 className="creatives">WE ARE CREATIVES</h2>
+        </div>
+
+        <div>
+          <img src="/images/icon-arrow-down.svg" className="arrow"/>
         </div>
       </div>
 
