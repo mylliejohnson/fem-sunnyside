@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600;700;800&display=swap');
 
-button, h2, a, h4, h3, span {
+button, h2, .col a, h4, h3, span {
   font-family: 'Fraunces', serif;
 }
 
@@ -10,7 +10,6 @@ button, h2, a, h4, h3, span {
   text-align: center;
   margin: auto;
   background: #3DBFFF;
-  font-size: 18px;
   font-family: 'Barlow', sans-serif;
 }
 
@@ -18,6 +17,16 @@ button, h2, a, h4, h3, span {
   height: 100vh;
   background-size: cover;
   color: white;
+}
+
+.nav{
+  background: pink;
+}
+
+h1 {
+  font-size: 37px;
+  font-weight: 800;
+  font-family: 'Barlow', sans-serif;
 }
 
 button{
@@ -36,14 +45,17 @@ button{
   background-position: center;
 }
 
-
 .testimonials{
   height:100vh;
   background: white !important;
   width: 100vw !important;
 }
 
-
+.client-img{
+  width: 144px;
+  height: 144px;
+  border-radius: 50%;
+}
 
 img{
   width: 25vw;

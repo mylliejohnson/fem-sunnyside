@@ -9,12 +9,12 @@ function App() {
       <div className="landing" style={{backgroundImage:'url(/images/desktop/image-header.jpg)'}}>
         <Navbar>
           <Container>
-            <span>sunnyside</span>
+            <h1>sunnyside</h1>
             <Nav>
               <Nav.Link>About</Nav.Link>
               <Nav.Link>Services</Nav.Link>
               <Nav.Link>Projects</Nav.Link>
-              <button>Contact</button>
+              <button>CONTACT</button>
             </Nav>
           </Container>
         </Navbar>
@@ -29,9 +29,7 @@ function App() {
           <Col>
             <h2> Transform your brand </h2>
             <p>
-              We are a full-service creative agency specializing in helping
-              brands grow fast. Engage your clients through compelling visuals
-              that do most of the marketing for you.
+              We are a full-service creative agency specializing in helping brands grow fast. Engage your clients through compelling visuals that do most of the marketing for you.
             </p>
             <a href="#">Learn more</a>
           </Col>
@@ -42,9 +40,7 @@ function App() {
           <Col>
             <h2>Stand out to the right audience</h2>
             <p>
-              Using a collaborative formula of designers, researchers,
-              photographers, videographers, and copywriters, we’ll build and
-              extend your brand in digital places.
+              Using a collaborative formula of designers, researchers,photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
             </p>
             <a href="#">Learn more</a>
           </Col>
@@ -53,16 +49,13 @@ function App() {
           <Col style={{backgroundImage:'url(/images/desktop/image-graphic-design.jpg)'}} className="feature">
             <h3>Graphic design</h3>
             <p>
-              Great design makes you memorable. We deliver artwork that
-              underscores your brand message and captures potential clients’
-              attention.
+              Great design makes you memorable. We deliver artwork that underscores your brand message and captures potential clients’ attention.
             </p>
           </Col>
           <Col style={{backgroundImage:'url(/images/desktop/image-photography.jpg)'}} className="feature">
             <h3>Photography</h3>
             <p>
-              Increase your credibility by getting the most stunning,
-              high-quality photos that improve your business image.
+              Increase your credibility by getting the most stunning, high-quality photos that improve your business image.
             </p>
           </Col>
         </Row>
@@ -72,28 +65,31 @@ function App() {
         <h4>CLIENT TESTIMONIALS</h4>
         <Row>
           <Col>
-            <div></div>
+            <div>
+              <img src="/images/image-emily.jpg" className="client-img"/>
+            </div>
             <p>
-              We put our trust in Sunnyside and they delivered, making sure our
-              needs were met and deadlines were always hit.
+              We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.
             </p>
             <h6> Emily R.</h6>
             <span>Marketing Director</span>
           </Col>
           <Col>
-            <div></div>
+            <div>
+            <img src="/images/image-thomas.jpg" className="client-img"/>
+            </div>
             <p>
-              Sunnyside’s enthusiasm coupled with their keen interest in our
-              brand’s success made it a satisfying and enjoyable experience.
+              Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
             </p>
             <h6> Thomas S.</h6>
             <span> Chief Operating Officer</span>
           </Col>
           <Col>
-            <div></div>
+            <div>
+            <img src="/images/image-jennie.jpg" className="client-img"/>
+            </div>
             <p>
-              Incredible end result! Our sales increased over 400% when we
-              worked with Sunnyside. Highly recommended!
+              Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
             </p>
             <h6> Jennie F.</h6>
             <span> Business Owner</span>
