@@ -9,12 +9,12 @@ function App() {
       <div className="landing" style={{backgroundImage:'url(/images/desktop/image-header.jpg)'}}>
         <Navbar>
           <Container>
-            <h1>sunnyside</h1>
+            <span>sunnyside</span>
             <Nav>
               <Nav.Link>About</Nav.Link>
               <Nav.Link>Services</Nav.Link>
               <Nav.Link>Projects</Nav.Link>
-              <Button>Contact</Button>
+              <button>Contact</button>
             </Nav>
           </Container>
         </Navbar>

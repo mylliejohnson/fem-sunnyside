@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&display=swap');
+
+button, h2, a, h4, h3, span {
+  font-family: 'Fraunces', serif;
+}
+
 .App {
   text-align: center;
   margin: auto;
   background: #3DBFFF;
+  font-size: 18px;
+  font-family: 'Barlow', sans-serif;
 }
 
 .landing{
   height: 100vh;
   background-size: cover;
   color: white;
+}
+
+button{
+  padding: 5px 10px;
+  border-radius: 25px;
+  border: 0px;
 }
 
 .row{
